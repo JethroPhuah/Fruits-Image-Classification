@@ -8,10 +8,6 @@ Data augmentation is a technique used to artificially expand and diversify a dat
 - Batch normalization
 
 Batch normalization streamlines the training of deep neural networks by standardizing layer inputs within each mini-batch, resulting in a stabilized learning process and a substantial decrease in the necessary training epochs for deep network convergence.
-- Learning rate scheduling
-
-Learning rate schedules aim to modify the learning rate throughout training, decreasing it based on a predefined timetable. Popular schedules include time-based decay, step decay, and exponential decay.
-
 - Weight Decay
 
 Weight decay is employed to restrain weight magnitudes and prevent gradient explosion. By adding the L2 norm of the weights to the loss, each iteration of the network optimizes both the model weights and the loss, ensuring that the weights remain manageable and averting issues of gradient explosion.
@@ -19,10 +15,6 @@ Weight decay is employed to restrain weight magnitudes and prevent gradient expl
 - Gradient clipping
 
 Gradient clipping is a technique to mitigate exploding gradients in neural networks by restricting the magnitude of the gradient. Various methods exist for computing gradient clipping, with a common approach being to rescale gradients to ensure their norm does not exceed a specified value.
-
-- Adaptive optimizer
-
-This category of optimizers has been developed to address challenges in traditional gradient descent algorithms. Their key advantage lies in not necessitating manual tuning of the learning rate value. However, some libraries, such as Keras, still offer the option for manual tuning in more sophisticated experiments.
 
 # **Dataset Used**
 
