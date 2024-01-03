@@ -23,3 +23,19 @@ Gradient clipping is a technique to mitigate exploding gradients in neural netwo
 - Adaptive optimizer
 
 This category of optimizers has been developed to address challenges in traditional gradient descent algorithms. Their key advantage lies in not necessitating manual tuning of the learning rate value. However, some libraries, such as Keras, still offer the option for manual tuning in more sophisticated experiments.
+
+# **Dataset Used**
+
+I will be using a dataset from Kaggle (https://www.kaggle.com/moltean/fruits). Below are the few characteristics of the dataset.
+
+Total number of images: 90483.
+
+Training size used: 67692 images (one fruit or vegetable per image).
+
+Test size used: 22688 images (one fruit or vegetable per image).
+
+Total number of classes: 131 (fruits and vegetables).
+
+Image size: 100x100 pixels.
+
+Different species of the same fruit (apple for instance) are stored as belonging to different classes.
